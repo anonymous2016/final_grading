@@ -1,0 +1,46 @@
+Problem 1 (leafy) : /10
+
+Problem 2 (Mancala) : /10
+
+part (a) : /5
+
+part (b) : /1
+
+part (c) : /4
+
+Problem 3 (MAX-SAT) : /10 
+
+part (a) I : /2 
+
+part (a) II : /2
+
+part (b) : /1
+
+part (c) : /5 
+
+Problem 4 (BSTs) : /10
+
+part (a) : /3
+
+part (b) : /3
+
+part (c) : /4
+
+Problem 5 (Comp-Geo) : /10
+
+part (a) : /2
+
+part (b) : /4
+
+part (c) : /4
+
+Problem 6 (Dijkstra) : /16
+
+Programming : 8/8
+
+Nice Job! Using standard libs is always a great idea.
+passed all test cases and did so very quickly.
+see programming_output.log for details
+
+Theory : /8
+

@@ -1,0 +1,56 @@
+Problem 1 (leafy) : /10
+
+Problem 2 (Mancala) : /10
+
+part (a) : /5
+
+part (b) : /1
+
+part (c) : /4
+
+Problem 3 (MAX-SAT) : /10 
+
+part (a) I : /2 
+
+part (a) II : /2
+
+part (b) : /1
+
+part (c) : /5 
+
+Problem 4 (BSTs) : /10
+
+part (a) : /3
+
+part (b) : /3
+
+part (c) : /4
+
+Problem 5 (Comp-Geo) : /10
+
+part (a) : /2
+
+part (b) : /4
+
+part (c) : /4
+
+Problem 6 (Dijkstra : /16
+
+Programming : 6/8
+
+some comments in code.
+
+for output on test cases, see programming_output.log
+
+Another common trick is to use the buit in
+python priority queue, and keep a Table T[1..n] initialized to 0.
+Add (v, d[v], t=T[v]) to the queue at the start of dijkstra's
+When you update the priority of an element (i.e. d[v]), add (v, d[v], t=T[v]+1)
+to the priority queue and set T[v] = T[v]+1.
+Now, when you pop an element (u, d[u], t) from the queue with extract min, check if
+T[u] = t. If not, continue popping. This is still O((V+E)logV) time, and you don't need
+to worry about updating priorities.
+
+
+Theory : /8
+
