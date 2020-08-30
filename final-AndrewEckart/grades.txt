@@ -3,6 +3,7 @@ Problem 1 (leafy) : /10
 Problem 2 (Mancala) : /10
 
 part (a) : /5
+this is a test
 
 part (b) : /1
 
